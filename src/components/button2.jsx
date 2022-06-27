@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './button2.css';
+import styles from './button2.module.css';
 
 class Button2 extends Component {
   render() {
     return (
-      <div className='button'>
-        <span className='text'>Button2</span>
+      <div className={styles.button}>
+        <span className={styles.text}>🍑 핑크 구역</span>
       </div>
     )
   }
